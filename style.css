@@ -1,0 +1,90 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.navbar-container {
+  padding: 20px 10%;
+  height: 15vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.navbar-container,
+.list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: gray;
+  list-style-type: none;
+}
+.list li:hover {
+  color: black;
+}
+
+nav img {
+  height: 30px;
+}
+
+.button-group {
+  margin-left: 400px;
+}
+
+nav button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #5038b7;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Hero section */
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-container h1 {
+  margin-top: 15%;
+  margin-left: 25%;
+  font-size: 70px;
+  color: #120e43;
+}
+
+span {
+  color: #5038b7;
+}
+
+.banner-container p {
+  margin-left: 25%;
+}
+
+/* left section */
+
+.description {
+  margin: 5% 0;
+}
+
+.btn {
+  padding: 15px 40px;
+  border: none;
+  background-color: #5038b7;
+  border-radius: 10px;
+  color: white;
+  font-weight: 5px;
+  margin-left: 25%;
+}
+
+/* Right section */
+
+.banner-container:nth-child(2) img {
+  width: 200px;
+}
